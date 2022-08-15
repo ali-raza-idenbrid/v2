@@ -128,7 +128,7 @@ import Footer from "../layout/Footer.vue";
 .hoverScale .thumb .hvrtxt .more_txt {
     color: #dadada;
     font-size: 1.4rem;
-    font-family: "DIN";
+    font-family: DIN-Bold;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     position: relative;
@@ -206,6 +206,7 @@ img {
     font-size: 18px;
     letter-spacing: 0.12px;
     font-family: NotoSansJP-Bold;
+    font-weight: bold;
 }
 .company--item .company_ttl span {
     font-size: 14px;

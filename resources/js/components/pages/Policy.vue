@@ -261,6 +261,9 @@
   .slider-img{
     margin-right: 10%;
   }
+  .vision-sitemap{
+    margin: 72px auto 0;
+  }
   .swiper-content .num{
    font-family: DIN-Bold;
   }
@@ -587,17 +590,17 @@
 
   .sitemap-title {
     text-align: center;
-    margin: 0px auto 20px;
-    color: #fff;
   }
   .sitemap-title h2{
      font-family: DIN-Bold;
      color: #dadada;
      font-size: 30px;
+     font-weight: 700;
   }
    .sitemap-title span{
      font-family: NotoSansJP-Bold;
      color: #dadada;
+     font-weight: 700;
      font-size: 14px;
    }
   .vision-sitemap img {
