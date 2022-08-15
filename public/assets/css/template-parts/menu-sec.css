@@ -1,0 +1,127 @@
+.menu {
+    margin-bottom: 60px;
+    position: relative;
+    background: url(../../../assets/img/service-menu.png);
+    background-size: cover;
+}
+
+.menu-contents {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-contents__list {
+    width: calc((100% - 65px * 2) / 3);
+}
+
+.menu-contents__list a {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.menu-contents__list a:hover {
+    transform: scale(1.15);
+}
+
+.menu-contents__list__thumbnail {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    width: 90px;
+    object-fit: contain;
+}
+
+.menu-contents__list__thumbnail_news {
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+
+.menu-contents__list__subtitle {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+.menu-contents__list__title {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+
+@media (max-width: 767px) {
+    .menu-contents{
+        padding-top: 60px;
+    }
+    .menu {
+        background: none;
+    }
+    .menu::before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        top: 0;
+        height: 150px;
+        width: 100%;
+        background: url(../../img/sample/menu.jpg);
+        z-index: 2;
+        background-size: cover;
+    }
+    .menu-contents {
+        position: relative;
+        z-index: 4;
+    }
+    .content-text_menu {
+        margin-bottom: 30px;
+    }
+    .menu-contents {
+        padding-top: 100px;
+        padding-bottom: 0;
+        display: block;
+    }
+    .menu-contents__list {
+        width: 100%;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .menu-contents__list a {
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+    .menu-contents__list__thumbnail {
+        margin-top: 15px;
+        margin-left: 30px;
+        width: 50px;
+    }
+    .menu-contents__list__thumbnail_news {
+        margin-top: 20px;
+    }
+    .menu-contents__list__text {
+        width: calc(100% - 80px);
+    }
+    .menu-contents__list__subtitle {
+        margin-top: 18px;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .menu-contents__list__title {
+        margin-top: 1px;
+        font-size: 15px;
+        line-height: 22px;
+    }
+}
