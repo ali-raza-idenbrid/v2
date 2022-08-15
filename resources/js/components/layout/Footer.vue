@@ -354,6 +354,7 @@
   color: #DADADA;
   font-size: 14px;
   letter-spacing: 0.1em;
+  font-weight: bold;
   font-family: NotoSansJP-Bold;
 }
 .social-links {
@@ -374,6 +375,7 @@
   letter-spacing: 0.18em;
   text-align: center;
   text-transform: uppercase;
+  font-weight: 400;
   font-family: NotoSansJP-Regular;
 }
  .btn-wide{ 

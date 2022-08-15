@@ -711,9 +711,9 @@
 
     .hoverScale .thumb .hvrtxt .more_txt {
         color: #dadada;
-        font-size: 1.4rem;
-        font-family: "DIN";
-        letter-spacing: 0.06em;
+        font-size: 14px;
+        font-family: DIN-Bold;
+        letter-spacing: 0.06px;
         text-transform: uppercase;
         position: relative;
         padding-right: 20px;
@@ -1150,6 +1150,7 @@
         background: url(/assets/img/work.jpeg) no-repeat center;
         background-size: cover;
         padding: 100px 10%;
+        margin-top: 60px;
     }
 
     @media screen and (max-width: 896px) {
@@ -1167,12 +1168,13 @@
 
     .branding--mv .text_area h3 {
         color: #fff;
-        font-size: 4rem;
+        font-size: 40px;
         line-height: 1.35;
         letter-spacing: 0.12em;
         text-align: left;
         margin-bottom: 45px;
         font-weight: 600;
+        font-family: NotoSansJP-Bold;
     }
 
     @media screen and (max-width: 896px) {
@@ -1183,11 +1185,12 @@
     }
 
     .branding--mv .text_area p {
-        font-size: 1.4rem;
+        font-size: 14px;
         line-height: 2;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.04px;
         color: #fff;
         text-align: left;
+        font-family: NotoSansJP-Regular;
     }
 
     .branding--mv .text_area .download {
@@ -1201,6 +1204,7 @@
         border: 1px solid #fdfdfd;
         transition: 0.4s;
         font-weight: 500;
+        font-family: NotoSansJP-Medium;
     }
 
     @media screen and (min-width: 897px) {
@@ -1248,15 +1252,18 @@
 
     .branding--service--inner .head .heading .sub {
         color: #333333;
-        font-size: 1.8rem;
-        letter-spacing: 0.08em;
+        font-size: 18px;
+        letter-spacing: 0.08px;
+        font-weight: 500;
+        font-family: DIN-Regular;
     }
 
     .branding--service--inner .head .heading h3 {
         color: #333333;
-        font-size: 2.6rem;
-        margin-top: 23px;
-        letter-spacing: 0.08em;
+        font-size: 26px;
+        /* margin-top: 23px; */
+        letter-spacing: 0.08px;
+        font-family: NotoSansJP-Bold;
     }
 
     @media screen and (max-width: 896px) {
@@ -1282,10 +1289,11 @@
 
     .branding--service--inner .head .lead {
         width: 50%;
-        font-size: 1.4rem;
+        font-size: 14px;
+        font-weight: 500;
         color: #333;
         line-height: 2.1;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.04px;
     }
 
     @media screen and (max-width: 896px) {
@@ -1371,8 +1379,9 @@
     .branding--service--wrap--box .text_area .heading h4 {
         margin-right: 15px;
         color: #333333;
-        letter-spacing: 0.04em;
+        letter-spacing: 0.04px;
         font-size: 20px;
+        font-family: NotoSansJP-Medium;
         font-weight: 500;
     }
 
@@ -1385,14 +1394,17 @@
     .branding--service--wrap--box .text_area .heading .label {
         color: #cfcfcf;
         padding: 7px 11px;
-        font-size: 1.3rem;
-        letter-spacing: 0.04em;
+        font-size: 13px;
+        letter-spacing: 0.04px;
         background-color: #222;
+        font-family: NotoSansJP-Regular;
+        font-weight: 500;
+
     }
 
     @media screen and (max-width: 896px) {
         .branding--service--wrap--box .text_area .heading .label {
-            font-size: 1.2rem;
+            font-size: 12px;
             padding: 5px 10px;
             display: inline-block;
             margin-top: 15px;

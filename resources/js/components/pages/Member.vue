@@ -575,6 +575,7 @@ ul, li {
     font-size: 13px;
     font-family: NotoSansJP-Regular;
     margin-top: 8px;
+    font-weight: 400;
     color: black;
 }
 
@@ -589,6 +590,7 @@ ul, li {
     cursor: pointer;
     font-family: NotoSansJP-Medium;
     line-height: 1.4;
+    font-weight: 500;
 }
 .member--index .member_inner .member_tab li.active::after {
     transform-origin: left top;

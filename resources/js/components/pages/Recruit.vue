@@ -107,6 +107,7 @@
     color: #dadada;
     font-size: 16px;
     transition: 0.6s ease;
+    font-weight: bold;
     font-family: NotoSansJP-Bold;
 }
 @media screen and (min-width: 897px){
@@ -231,6 +232,7 @@
     transition: 0.6s;
     opacity: 1;
     color:#dadada;
+    font-weight: bold;
     font-family: NotoSansJP-Bold;
 }
 @media screen and (min-width: 897px) {
@@ -254,6 +256,7 @@
     line-height: 2;
     font-size: 16px;
     font-family: NotoSansJP-Regular;
+    font-weight: 400;
     color:#dadada;
 }
 
