@@ -1189,13 +1189,13 @@ height: auto;
 
     .content-text_blog {
         margin-top: 0px;
-        margin-bottom: 40px;
+        margin-bottom: 60px;
     }
 
     .blog-contents {
         display: flex;
         justify-content: space-between;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
     }
 
     .blog-contents__list {

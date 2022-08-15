@@ -306,11 +306,9 @@
   .policy-prgh p {
     font-size: 14px;
     line-height: 2;
-    font-weight: 400;
-    letter-spacing: 0.04em;
     color: #000;
     font-family: NotoSansJP-Regular;
-    letter-spacing: 0.4em;
+    /* letter-spacing: 0.4px; */
     display: inline-flex;
   }
 
@@ -330,16 +328,18 @@
 
   .mission-title h2 {
     color: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     font-size: 30px;
     font-family: DIN-Medium;
-    line-height: 30px;
+    line-height: 1.5;
     letter-spacing: 3px;
+    font-weight: 700;
   }
 
   .mission-title span {
     text-align: center;
     color: #fff;
+    font-weight: 400;
     font-size: 14px;
     font-family: NotoSansJP-Regular;
   }
@@ -363,9 +363,10 @@
     font-family: DIN-Medium;
     font-size: 30px;
     color: #ffff;
-    line-height: 30px;
+    line-height: 1.5;
     letter-spacing: 3px;
-    margin-bottom: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
   }
 
   .vision-title span {
