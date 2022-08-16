@@ -1,9 +1,15 @@
 <template>
   <div>
     <Navbar />
-   <div class="hero_Heading">
+   <!-- <div class="hero_Heading">
       <h2 class="hero">POLICY</h2>
       <p class="blog-subcontents__text">こちらのお知らせでは当社から皆様によりIT開発が好きになるようなニュースや当社からのリリースを発信する場所です。</p>
+    </div> -->
+    <div class="mv_textarea policy-text">
+        <h2>
+            <strong class="en entxt">Policy</strong>
+            <span class="jptxt">経営理念</span>
+        </h2>
     </div>
     <section class="section-policy">
       <div class="policy-content">  
@@ -254,6 +260,15 @@
     font-family: NotoSansJP-Bold;
     font-size: 16px;
     margin-bottom: 50px
+  }
+  .policy-text{
+    background-color: #000;
+    padding: 140px 10% 70px !important;
+  }
+  .policy-text .entxt{
+    text-align: start !important;
+    font-size: 40px !important;
+    color: #fff !important;
   }
   .swiper-content{
     margin-left: 5%;

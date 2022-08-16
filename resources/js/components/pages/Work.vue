@@ -7,7 +7,7 @@
     <h2 class="hero pb-2">WORKS</h2>
     <p class="work-subcontents__text">このページでは当社がこれまで手がけてきたシステム開発・アプリ構築・ウェブ制作などのポートフォリオを公開しています。</p>
 </div>
-        <section class="work mycontents-wide">
+        <!-- <section class="work mycontents-wide">
             <ul class="work-contents">
                 <li v-for="work in works" :key="work.id" class="work-contents__list">
                     <router-link :to="'/work/detail/'+work.id">
@@ -18,9 +18,9 @@
                     </router-link>
                 </li>
             </ul>
-        </section>
+        </section> -->
 
-  <section class="menu">
+  <!-- <section class="menu">
     <ul class="menu-contents mycontents-wide">
         <li class="menu-contents__list">
             <router-link to="/about/">
@@ -50,7 +50,7 @@
             </router-link>
         </li>
     </ul>
-</section>
+</section> -->
 <!-- <section class="contact mycontents-wide mt-5">
     <h3 class="content-title content-title_contact">お問い合わせ</h3>
     <img class="contact__img" src="/public/assets/img/icons/Operator.png" alt="" width="80px">
@@ -97,6 +97,9 @@
   </div>
 </div>
 </section> -->
+
+
+
 </main>
  <Footer />
     </div>
