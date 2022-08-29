@@ -12,7 +12,8 @@
         </h2>
     </div>
     <section class="section-policy">
-      <div class="policy-content">  
+      <div class="d-flex flex-wrap">
+      <div class="col-md-6 policy-content">  
         <div class="policy-title">
           <h3>ブラック企業ではない<br />ブラックな企業</h3>
         </div>
@@ -27,6 +28,10 @@
             <br />最初に大切にしたのは「何のために誰とやるか」だってこと。
           </p>
         </div>
+      </div>
+      <div class="col-md-6 policy-img">
+        <img src="/assets/img/policy.svg" alt="">
+      </div>
       </div>
     </section>
     <section class="section-mission">
@@ -314,7 +319,7 @@
 
   .policy-title h3 {
     font-family: NotoSansJP-Bold;
-    font-size: 64px;
+    font-size: 54px;
     font-weight: 600;
     line-height: 1.4;
     color: #000000;
@@ -322,7 +327,7 @@
   }
 
   .policy-prgh p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 2;
     color: #000;
     font-family: NotoSansJP-Regular;
@@ -436,7 +441,16 @@
     padding: 0 0 80px;
 
   }
+  .policy-img{
+    position: relative;
+    background-color: #fef8ed;
+    margin-top: 20px;
 
+  }
+  .policy-img img{
+    width: 100%;
+    object-fit: cover;
+  }
   .most-intersting h2 {
     font-family: NotoSansJP-Bold;
     font-size: 50px;
@@ -784,7 +798,7 @@
       margin: 30px auto;
     }
     .policy-title h3 {
-      font-size: 26px;
+      font-size: 23px;
       letter-spacing: 2.8px;
       line-height: 2;
     }
