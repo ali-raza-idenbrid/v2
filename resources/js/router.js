@@ -29,7 +29,7 @@ import NewsDetail from './components/pages/news/NewsDetail.vue'
 import downloadform from './components/pages/DownloadForm.vue'
 import Branding from './components/pages/Branding.vue'
 import Recruit from './components/pages/Recruit.vue'
-
+import AboutUs from './components/pages/AboutUs.vue'
 
 
 const routes = [
@@ -67,6 +67,10 @@ const routes = [
 {
     path: '/about-company',
     component: AboutCompany
+},
+{
+    path: '/about-us',
+    component: AboutUs
 },
 // work
 {
