@@ -39,6 +39,19 @@
     </div>
 </template>
 <style>
+.sd {
+    max-width: 100%;
+    z-index: 0;
+    pointer-events: all;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    flex: none;
+}
 .sd[data-s-823fb75c-8c48-4320-a237-9984c9d81626] {
     align-content: flex-start;
     align-items: flex-start;
@@ -241,6 +254,21 @@
 .sd[data-s-823fb75c-8c48-4320-a237-9984c9d81626] {
     padding: 120px 0px 80px 0px;
 }
+.sd[data-s-f0c262dd-5d75-4ca6-ad49-3778ce43e593] {
+    bottom: 0px;
+    flex: none;
+    height: auto;
+    left: auto;
+    right: -106px;
+    top: 31px;
+    width: 500px;
+    max-width: 100%;
+}
+.sd[data-s-bd7cdecf-ea32-4961-be37-5702e94db245] {
+    flex: none;
+    width: 40%;
+    max-width: 40%;
+}
 }
 @media screen and (max-width: 768px){
 .sd[data-s-823fb75c-8c48-4320-a237-9984c9d81626] {
@@ -272,11 +300,19 @@
 .sd[data-s-f0c262dd-5d75-4ca6-ad49-3778ce43e593] {
     bottom: 0px;
     flex: none;
-    height: auto;
+    height: 629px;
     left: auto;
-    right: -106px;
-    top: 31px;
+    margin: 0 0 0 0;
+    opacity: 0;
+    position: absolute;
+    right: -192px;
+    top: auto;
     width: 500px;
+    max-width: 100%;
+}
+.sd[data-s-8e56bd38-56bd-4027-949d-76dab59ede5d] {
+    flex: none;
+    width: 100%;
     max-width: 100%;
 }
 }
@@ -298,12 +334,12 @@
 .sd[data-s-d94b86da-51bb-4568-ac17-ce9210421529] {
     font-size: 15px;
 }
-.sd[data-s-8e56bd38-56bd-4027-949d-76dab59ede5d] {
+/* .sd[data-s-8e56bd38-56bd-4027-949d-76dab59ede5d] {
     flex: none;
     height: auto;
     width: 40%;
     max-width: 40%;
-}
+} */
 .sd[data-s-f0c262dd-5d75-4ca6-ad49-3778ce43e593] {
     bottom: -213px;
     height: 430px;
@@ -318,6 +354,12 @@
 }
 .sd[data-s-b7f98140-872e-429c-b289-c581e8d92380] {
     font-size: 24px;
+}
+.sd[data-s-8e56bd38-56bd-4027-949d-76dab59ede5d] {
+    font-size: 6px;
+    margin: 32px 0px 0px 0px;
+    width: 100%;
+    max-width: 100%;
 }
 }
 </style>
